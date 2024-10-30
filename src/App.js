@@ -5,7 +5,7 @@ import Home from './Components/HomePage';
 // Main App component
 import Logo from './Components/Logo';
 import ContactBar from './Components/ContactBar';
-import { Routes,Route, Router } from 'react-router-dom';
+import { Routes,Route, Router, BrowserRouter } from 'react-router-dom';
 import Turmeric500 from './Components/products/Turmeric500';
 import Navbar from './Components/Navbar';
 import Amchur500 from './Components/products/Amchur500';
@@ -17,12 +17,12 @@ import RedChilli200 from './Components/products/Redchilli200';
 function App() {
   return (
     <>
+    <BrowserRouter basename='dspremi'>
     <Logo/>
     <ContactBar/>
     <Navbar/>
-    <Home/>
+    {/* <Home/> */}
     <Routes>
-            {/* <Switch> */}
                 <Route path="/" element={<Home />} />
                 <Route path="/dspremium-turmeric-500" element={<Turmeric500 />} />
                 <Route path="/dspremium-redchilli-500" element={<RedChilli500 />} />
@@ -31,8 +31,8 @@ function App() {
                 <Route path="/dspremium-turmeric-200" element={<Turmeric200 />} />
                 <Route path="/dspremium-redchilli-200" element={<RedChilli200 />} />
                 <Route path="/dspremium-cooriander-200" element={<Coriander200 />} />
-            {/* </Switch> */}
         </Routes>
+        </BrowserRouter>
         </>
   );
 
