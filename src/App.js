@@ -21,7 +21,7 @@ function App() {
     <ContactBar/>
     <Navbar/>
     {/* <Home/> */}
-    <BrowserRouter basename='dsp'>
+    <BrowserRouter basename="/dsp">
     <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dspremium-turmeric-500" element={<Turmeric500 />} />
