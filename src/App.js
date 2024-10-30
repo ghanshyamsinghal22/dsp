@@ -17,11 +17,11 @@ import RedChilli200 from './Components/products/Redchilli200';
 function App() {
   return (
     <>
-    <BrowserRouter basename='dspremi'>
     <Logo/>
     <ContactBar/>
     <Navbar/>
     {/* <Home/> */}
+    <BrowserRouter basename='dspremi'>
     <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dspremium-turmeric-500" element={<Turmeric500 />} />
