@@ -1,0 +1,68 @@
+/* Card styles */
+.card {
+  border-radius: 8px; /* Rounded corners */
+  width: 20%; /* Default width for larger screens */
+  overflow: hidden; /* Prevents overflow of child elements */
+  transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+  background-color: #fff; /* Card background color */
+  padding: 1%; /* Inner padding for content */
+  margin: 1%; /* Space around each card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* CardContainer styles */
+.card-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow cards to wrap onto the next line */
+  justify-content: center; /* Center align cards */
+  align-items: flex-start; /* Align items to the start vertically */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Card hover effect */
+.card:hover {
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Card image */
+.card-image {
+  width: 100%; /* Full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+/* Card info section */
+.card-info {
+  text-align: center; /* Center the text inside the card */
+  padding: 5px 0; /* Slightly more padding for better spacing */
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.1em; /* Font size for title */
+  color: #333; /* Color for title text */
+  margin: 0; /* No margin for consistency */
+}
+
+/* Card price styling */
+.card-price {
+  font-size: 1.2em; /* Slightly larger font for price */
+  color: #e53935; /* Color for price text */
+  font-weight: bold; /* Bold price text */
+  margin: 0; /* No margin for consistency */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .card {
+    width: 45%; /* Two cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; /* One card per row on very small screens */
+  }
+}

@@ -1,0 +1,112 @@
+/* Container styling */
+.product-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row; /* Arrange thumbnails and main image in a row */
+  align-items: flex-start;
+  width: 50%;
+}
+
+.thumbnail-section {
+  display: flex;
+  flex-direction: column; /* Arrange thumbnails in a vertical column */
+  gap: 0.5rem;
+  margin-right: 1rem; /* Space between thumbnails and main image */
+}
+
+.main-image {
+  width: 70%;
+  max-height: 600px;
+  object-fit: contain;
+  /* border: 1px solid #ddd; */
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: border 0.3s ease;
+}
+
+.thumbnail.active {
+  border-color: #555;
+}
+
+.product-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* padding: 1rem; */
+}
+
+
+
+.product-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #5f5e5e;
+  font-weight: 400;
+}
+
+.price-container {
+  display: flex;
+  align-items: center; /* Align prices vertically centered */
+  gap: 0.5rem; /* Space between original and discounted prices */
+  padding-bottom: 0%;
+}
+
+.original-price {
+  color: #777; /* Gray color for original price */
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  margin-top: 0.01rem;
+  margin-bottom: 0.01rem;
+}
+
+.price {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.01rem;
+  margin-bottom: 0.01rem;
+
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-section {
+    width: 100%;
+    flex-direction: column; /* Stack thumbnails below main image for mobile */
+    align-items: center;
+  }
+
+  .thumbnail-section {
+    flex-direction: row; /* Arrange thumbnails horizontally */
+    margin-top: 0.5rem; /* Space thumbnails below main image */
+    margin-right: 0; /* Remove any right margin */
+    justify-content: center;
+  }
+
+  .main-image {
+    width: 70%; /* Adjust main image width for smaller screens */
+  }
+
+  .product-info {
+    width: 100%;
+  }
+}

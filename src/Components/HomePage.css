@@ -1,0 +1,12 @@
+.products-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the cards */
+    margin: -10px; /* Negative margin to offset the card margins */
+    background-color: #eaeaea; /* Light background color */
+    padding: 10px; /* Optional: add padding around the container */
+  }
+.home {
+    align-items: center;
+    justify-content: center; 
+}
