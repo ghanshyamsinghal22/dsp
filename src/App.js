@@ -21,7 +21,7 @@ function App() {
     <ContactBar/>
     <Navbar/>
     {/* <Home/> */}
-    <BrowserRouter basename='dspremi'>
+    {/* <BrowserRouter basename='dspremi'> */}
     <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dspremium-turmeric-500" element={<Turmeric500 />} />
@@ -32,7 +32,7 @@ function App() {
                 <Route path="/dspremium-redchilli-200" element={<RedChilli200 />} />
                 <Route path="/dspremium-cooriander-200" element={<Coriander200 />} />
         </Routes>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
         </>
   );
 
