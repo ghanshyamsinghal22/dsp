@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dsp/static/css/main.45d48d9b.css",
-    "main.js": "/dsp/static/js/main.cf98cc1f.js",
+    "main.js": "/dsp/static/js/main.ba523288.js",
     "static/media/Coriander500-0.jpg": "/dsp/static/media/Coriander500-0.c4cec43047444d89f49f.jpg",
     "static/media/Turmeric500g-0.jpg": "/dsp/static/media/Turmeric500g-0.18911cb44da22625c835.jpg",
     "static/media/Amchur500-0.jpg": "/dsp/static/media/Amchur500-0.828d581f300fed6dd583.jpg",
@@ -38,10 +38,10 @@
     "static/media/dsp5.jpeg": "/dsp/static/media/dsp5.75c7b730b302a9e2d0ef.jpeg",
     "index.html": "/dsp/index.html",
     "main.45d48d9b.css.map": "/dsp/static/css/main.45d48d9b.css.map",
-    "main.cf98cc1f.js.map": "/dsp/static/js/main.cf98cc1f.js.map"
+    "main.ba523288.js.map": "/dsp/static/js/main.ba523288.js.map"
   },
   "entrypoints": [
     "static/css/main.45d48d9b.css",
-    "static/js/main.cf98cc1f.js"
+    "static/js/main.ba523288.js"
   ]
 }
