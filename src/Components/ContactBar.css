@@ -1,69 +1,76 @@
 .contact-bar {
   display: flex;
   justify-content: space-between; /* Space between left and right sections */
-  align-items: center; /* Center items vertically */
-  padding: 0.5rem 1rem; /* General padding */
-  background-color: red; /* Red background color */
-  color: white; /* White text color */
-  border-bottom: 2px solid #b30000; /* Darker red for the bottom border */
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border-bottom: 2px solid #b30000;
+  flex-wrap: wrap; /* Allow items to wrap */
 }
 
 .contact-left {
-  font-weight: bold; /* Make the text bold */
+  font-weight: bold;
 }
 
 .contact-right {
   display: flex;
   align-items: center;
+  flex-wrap: wrap; /* Allow right items to wrap */
 }
 
 .contact-link {
-  color: white; /* White link color */
-  text-decoration: none; /* Remove underline */
-  margin-left: 1rem; /* Space between links */
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
 .contact-link:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
 .contact-separator {
-  margin: 0 1rem; /* Space around the separator */
+  margin: 0 1rem;
 }
 
 /* Responsive Styling */
 @media (max-width: 768px) {
   .contact-bar {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      align-items: flex-start; /* Align items to the left */
-      padding: 1rem; /* Increase padding for smaller screens */
+    flex-direction: row;
+    align-items: flex-start;
   }
-  
+
   .contact-left {
-      margin-bottom: 0.5rem; /* Space below the left section */
-      font-size: 1.2rem; /* Slightly larger font for better readability */
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
   }
-  
+
   .contact-right {
-      justify-content: flex-start; /* Align right section items to the left */
+    display: block; /* Stack links vertically */
   }
-  
+
   .contact-link {
-      margin-left: 0.5rem; /* Reduce margin between links */
-      font-size: 0.9rem; /* Adjust font size for mobile */
+    display: block; /* Each link on a new line */
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+
+  .contact-separator {
+    display: none; /* Hide separator on smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   .contact-bar {
-      padding: 0.5rem; /* Further reduce padding for very small screens */
+    padding: 0.5rem;
+    flex-direction: row;
   }
-  
+
   .contact-left {
-      font-size: 1rem; /* Smaller font for very small screens */
+    font-size: 1rem;
   }
-  
+
   .contact-link {
-      font-size: 0.8rem; /* Smaller font size for links */
+    font-size: 0.8rem;
   }
 }

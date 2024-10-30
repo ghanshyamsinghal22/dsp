@@ -15,8 +15,8 @@ function Home() {
   return (
     <div className="home">
     <SayHomeImage/>
-    <div style={{backgroundColor:'#eaeaea'}}>
-      <h1 style={{textAlign:'center'}}>Ground Spices (500 Gm)</h1>
+    <div >
+      <h1 style={{textAlign:'center',backgroundColor:'red'}}>Ground Spices (500 Gm)</h1>
     <div className='products-page'>
     <Card image={Amchur500_0} title={"Amchur Powder (500 gm)" } price={500} redirect={"/dspremium-amchur-500"}/>
     <Card image={Redchilli500_0} title={"Red Chilli Powder (500 gm)"} price={500} redirect={"/dspremium-redchilli-500"}/>
@@ -25,7 +25,7 @@ function Home() {
     </div>
     <br/>
     <div>
-      <h1 style={{textAlign:'center'}}>Ground Spices (200 Gm)</h1>
+      <h1 style={{textAlign:'center',backgroundColor:'red'}}>Ground Spices (200 Gm)</h1>
     </div>
     <div className='products-page'>
     <Card image={Redchilli200_0} title={"Red Chilli Powder (200 gm)"} price={500} redirect={"/dspremium-redchilli-200"}/>

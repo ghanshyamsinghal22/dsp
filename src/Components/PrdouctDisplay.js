@@ -10,8 +10,10 @@ const ProductDisplay = ({ product }) => {
       <div className="image-section">
         {/* Main Large Image */}
         
-        {/* Thumbnails */}
-        <div className="thumbnail-section">
+        
+        <img src={selectedImage} alt="Selected" className="main-image" />
+{/* Thumbnails */}
+<div className="thumbnail-section">
           {product.images.map((image, index) => (
             <img
               key={index}
@@ -22,8 +24,6 @@ const ProductDisplay = ({ product }) => {
             />
           ))}
         </div>
-        <img src={selectedImage} alt="Selected" className="main-image" />
-
       </div>
 
       {/* Product Info Section */}

@@ -16,7 +16,7 @@
   flex-wrap: wrap; /* Allow cards to wrap onto the next line */
   justify-content: center; /* Center align cards */
   align-items: flex-start; /* Align items to the start vertically */
-  padding: 20px; /* Padding around the container */
+  padding: 5px; /* Padding around the container */
 }
 
 /* Card hover effect */
@@ -36,12 +36,13 @@
 /* Card info section */
 .card-info {
   text-align: center; /* Center the text inside the card */
-  padding: 5px 0; /* Slightly more padding for better spacing */
+  /* padding: 5px 0;  */
 }
 
 /* Card title styling */
 .card-title {
-  font-size: 1.1em; /* Font size for title */
+  font-size: 1.1em; 
+  /* Font size for title */
   color: #333; /* Color for title text */
   margin: 0; /* No margin for consistency */
 }
