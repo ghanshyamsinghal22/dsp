@@ -20,6 +20,7 @@ function App() {
     <Logo/>
     <ContactBar/>
     <Navbar/>
+    <Home/>
     <Routes>
             {/* <Switch> */}
                 <Route path="/" element={<Home />} />
