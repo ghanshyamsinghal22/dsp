@@ -7,10 +7,11 @@ import Coriander_200_3 from '../../img/200gm/Coriander 200-3.jpg';
 function Coriander200(){
   const productData = {
     name: "D S Premium Coriander Powder (200 gm)",
-    price: 500,
-    originalprice:500,
+    price: 90,
+    originalprice:97,
     images: [Coriander_200_0,Coriander_200_1,Coriander_200_2,Coriander_200_3],
-    description:"Coriander powder is a spice made from dried and ground coriander seeds. It is a popular ingredient in many cuisines around the world, coriander powder is a versatile spice that can be used in a wide range of dishes to add a unique and aromatic taste. Its culinary uses and health benefits make it a valuable addition to many kitchens around the world. It is a good source of dietary fiber, vitamins, and minerals, including calcium, iron, and magnesium. It is commonly used as a seasoning in curries, stews, marinades, and spice blends.",
+    description:
+    "DSpremium Coriander Powder, made from carefully selected, dried, and ground coriander seeds, is a versatile spice that brings a warm, aromatic flavor to countless dishes. Widely cherished in various cuisines worldwide, DSpremium Coriander Powder is perfect for adding depth and a subtle earthiness to curries, stews, marinades, and spice blends. Its delightful aroma and flavor make it an essential ingredient in any kitchen. In addition to enhancing your meals, DSpremium Coriander Powder is a natural source of dietary fiber, vitamins, and essential minerals like calcium, iron, and magnesium. Add DSpremium Coriander Powder to your pantry to elevate your cooking and enjoy its numerous health benefits.",
     weight:200
 };
   console.log(productData);

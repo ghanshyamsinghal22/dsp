@@ -6,10 +6,11 @@ import RedChilli_200_3 from '../../img/200gm/RedChilli200-3.jpg';
 function RedChilli200(){
   const productData = {
     name: "D S Premium Red Chilli Powder (200 gm)",
-    price: 500,
-    originalprice:500,
+    price: 110,
+    originalprice:118,
     images: [RedChilli_200_0,RedChilli_200_1,RedChilli_200_2,RedChilli_200_3],
-    description:"Chilies in this package contain an ADMixture of not more the 2 percent of mustard Edible oil Shyam Longi Mirch Powder is a bright red spice powder made from dried and ground Longi Mirch chilies. The powder is known for its vibrant red color, which adds visual appeal to dishes. It has a moderate level of spiciness and imparts a distinct flavor to the food. Longi Mirch Powder is popularly used in Indian recipes to add a mild to moderate level of heat along with its unique taste. It is commonly used in various Indian dishes such as curries, stews, marinades, and masalas. It is particularly favored for its ability to add rich red color to gravies and sauces without making them overly spicy. Longi Mirch Powder is also used in snacks, chutneys, pickles, and spice blends.",
+    description:
+    "DSpremium Longi Mirch Powder is crafted from the finest Longi Mirch chilies, dried and ground to produce a vibrant red spice powder that elevates the look and flavor of any dish. Known for its bright red color and moderate spiciness, DSpremium Longi Mirch Powder adds both visual appeal and a distinctive taste to your culinary creations. Ideal for Indian recipes, it brings a mild to moderate heat to curries, stews, marinades, and masalas, making it a versatile addition to your spice collection. This Longi Mirch Powder is particularly favored for adding a rich red color to gravies and sauces without overpowering them with excessive heat. Use it to enhance the flavor and color of snacks, chutneys, pickles, and spice blends, and enjoy the balanced warmth and vibrant hue that DSpremium Longi Mirch Powder brings to your dishes.",
     weight:200
 };
   console.log(productData);

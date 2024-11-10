@@ -3,7 +3,7 @@
   justify-content: space-between; /* Space between left and right sections */
   align-items: center;
   padding: 0.5rem 1rem;
-  background-color: red;
+  background-color: rgb(255, 50, 50);
   color: white;
   border-bottom: 2px solid #b30000;
   flex-wrap: wrap; /* Allow items to wrap */
